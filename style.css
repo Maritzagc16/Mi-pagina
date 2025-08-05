@@ -142,3 +142,59 @@ body {
     transform: scale(1.15);
   }
 }
+/* Estilos para los carruseles de servicios */
+.service-item {
+  background: #ffffff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+  color: #000000;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.service-carousel {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.service-carousel .carousel-inner {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-carousel img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.carousel-control-prev, 
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 172, 183, 0.7);
+  border-radius: 50%;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+  width: 20px;
+  height: 20px;
+}
